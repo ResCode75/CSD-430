@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Rachel Shaw - 2.2 Assignment - 5/30/2025 */
+
+#titleStuff{
+	text-align: center;
+	background-color: #fce6ed;
+	border-radius: 10%
+	
+}
+
+#tableDiv{
+	padding-left: 750px;
+	grid-column-start: 2;
+	text-align: center;
+	
+}
+
+
+th {
+	padding: 10px;
+	background-color: #fff5f8;
+}
+
+td{
+	 padding: 10px;
+}
