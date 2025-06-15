@@ -1,0 +1,87 @@
+/*Rachel Shaw - 4.2 Assignment - 6/14/2025 */
+
+@charset "UTF-8";
+
+header{
+    padding-top: 10px;
+    text-align: center;
+    color: #2d92a6;
+    font-size: 30px;
+    background-color: #d3edf2
+}
+
+.navbar{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    font-size: 20px;
+    color: #2d92a6;
+    
+}
+
+.navbar a{
+    font-size: 24;
+
+}
+
+.navbar a:hover{
+    color: #edf8fa;
+}
+
+h1{
+	color: #2d92a6;
+}
+
+
+#message{
+
+	font-style: italic;
+}
+
+#dateandtime{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#field1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#field2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+#field3{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+
+textarea{
+	width: 500px;
+	height: 100px;
+	resize: none;
+	
+}
+
+#vdissatisfiedlabel{
+	color: #eb4034;
+}
+
+#dissatisfiedlabel{
+	color: #eb9834;
+}
+
+#satisfiedlabel{
+	color: #abeb34;
+}
+
+#vsatisfiedlabel{
+	color: #34eba8;
+}
