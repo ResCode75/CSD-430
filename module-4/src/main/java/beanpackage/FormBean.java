@@ -14,6 +14,7 @@ public class FormBean implements Serializable{
 	private String[] reasons;
 	private String comments;
 	
+	//no arg constructor
 	public FormBean(){
 		this.date = null;
 		this.time = null;
@@ -22,6 +23,7 @@ public class FormBean implements Serializable{
 		this.comments = null;
 	}
 	
+	//getters and setters
 	public void setDate(String date){
 		this.date = date;
 	}
