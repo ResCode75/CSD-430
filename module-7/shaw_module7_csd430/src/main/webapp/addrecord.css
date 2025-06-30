@@ -1,0 +1,75 @@
+/* Rachel Shaw  - CSD 430 - Database Project */
+
+@charset "UTF-8";
+
+body{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	background-color: #3E7979;
+
+}
+
+#container{
+	width: 600px;
+	height: 850px;
+	padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: #F4FFF8;
+	
+}
+h1{ 
+	text-align: center;
+	color: #1C3738;
+	text-decoration: underline;
+	text-decoration-color:  #8BAAAD;
+}
+
+#back{
+	margin-bottom: 10px;
+}
+
+#form{
+	padding: 10px;
+}
+
+.input{ 
+	padding: 5px;
+	text-align: center;
+}
+
+#message{
+	color: #8BAAAD;
+}
+
+h2{
+	text-align: center;
+	color: #1C3738;
+	text-decoration: underline;
+	text-decoration-color:  #8BAAAD;
+}
+
+table{
+	border-color: #1C3738;
+}
+th{
+	color:  #1C3738;
+}
+td{
+	color: #1C3738;
+}
+
+a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #1C3738;
+}
+
+a:hover{
+	text-decoration: underline;
+	text-decoration-color: #8BAAAD;
+}
