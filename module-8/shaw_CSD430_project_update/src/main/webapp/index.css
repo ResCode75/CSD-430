@@ -1,0 +1,57 @@
+/* Rachel Shaw - CSD430 - Database Project */
+
+@charset "UTF-8";
+
+body{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	background-color: #3E7979;
+
+}
+
+#container{
+	width: 600px;
+	height: 850px;
+	padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: #F4FFF8;
+	
+}
+
+
+h1{ 
+	text-align: center;
+	color: #1C3738;
+	text-decoration: underline;
+	text-decoration-color:  #8BAAAD;
+}
+
+#list{
+	
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #8BAAAD;
+}
+h2{
+	color: #1C3738;
+}
+
+a{
+	text-decoration: none;
+	color: #1C3738;
+	font-size: 20px;
+}
+
+a:hover{
+	text-decoration: underline;
+	text-decoration-color:  #8BAAAD;
+}
