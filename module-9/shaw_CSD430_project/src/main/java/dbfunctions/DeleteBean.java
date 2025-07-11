@@ -1,3 +1,5 @@
+//Rachel Shaw - CSD-340 - Database Project
+
 package dbfunctions;
 
 import java.sql.Connection;
@@ -14,6 +16,7 @@ public class DeleteBean implements java.io.Serializable {
 	Connection conn;
 	Statement stmt;
 	
+	//connect to database
 	public DeleteBean() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
@@ -28,6 +31,7 @@ public class DeleteBean implements java.io.Serializable {
 		
 	}
 	
+	//display dropdown
 	public String deleteOptions() {
 		
 		StringBuilder op = new StringBuilder();
@@ -60,6 +64,7 @@ public class DeleteBean implements java.io.Serializable {
 		return op.toString();
 	}
 	
+	//delete selected record
 	public void deleteRecord(String selected) {
 		try {
 			stmt.execute("DELETE FROM rachel_library_data WHERE ID =" + selected);
